@@ -1,0 +1,7 @@
+name: Advancedqueue test
+description: Advancedqueue import equal items test.
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:advancedqueue

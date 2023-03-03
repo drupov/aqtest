@@ -1,0 +1,5 @@
+services:
+  aqtest.commands:
+    class: Drupal\aqtest\Commands\AQTestCommands
+    tags:
+      -  { name: drush.command }

@@ -1,0 +1,15 @@
+{
+    "name": "drupal/aqtest",
+    "description": "AQTest.",
+    "type": "drupal-module",
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9"
+            }
+        }
+    },
+    "require": {
+        "drupal/advancedqueue": "^1.0-rc7"
+    }
+}
